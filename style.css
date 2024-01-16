@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(242, 218, 83);
+    /* all sides */
+    padding: 30px;
+    /* top-bottom = left-right */
+    padding: 15px 40px;
+    /* top= right = botttom =left */
+    padding: 10px 20px 5px 0px;
+    
+    margin: 50px;
+    margin: 30px auto;
+    color: dodgerblue;
+
+    border-radius: 20px;
+    border-radius: 5px 130px;
+
+}
+.msg{
+    width: 240px;
+    background: #98ff98;
+    padding: 16px;
+    margin: 10px 50px;
+    border-radius: 14px 14px 14px 0;
+    border-left: 4px solid green;
+
+}
+.msg span{
+    font-size: 12px;
+    display: block;
+    text-align: right;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    /* davomiylik */
+    transition-duration: 0.5s;
+    /* kechiktirish */
+    transition-delay: 0s;
+    /* holat  */
+    transition-timing-function: ease;
+    /* hoverga yozilagnlarni faqat gina bittasiga tasir qiladi = hossasi */
+    transition-property: all;
+
+}
+.circle:hover{
+    background: gold;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 30px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 0 14px 0 14px;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    /* shorthand */
+    transition: all .3s ease 0s;
+
+}
+.btn:hover{
+    background: white;
+    color: dodgerblue
+    ;
+
+}
+.div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 1px 50px 50px;
+}
